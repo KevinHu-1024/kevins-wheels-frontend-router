@@ -1,0 +1,23 @@
+{
+  "name": "kevins-wheels-frontend-router",
+  "version": "0.0.1",
+  "description": "自己造轮子，实现前端路由",
+  "main": "index.js",
+  "scripts": {
+    "build": "ts-node node_modules/webpack/bin/webpack.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "frontend",
+    "router"
+  ],
+  "author": "kevin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/webpack": "^3.0.5",
+    "awesome-typescript-loader": "^3.2.2",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.4.2",
+    "webpack": "^3.4.1"
+  }
+}
