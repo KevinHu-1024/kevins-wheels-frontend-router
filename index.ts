@@ -1,11 +1,4 @@
-import Route from './route'
-
-interface Router {
-  path?: string,
-  cb?: () => void,
-  children?: Router[],
-  redirect?: string,
-}
+import { Route, Router} from './route'
 
 const routeBase: Router[] = [
   {
