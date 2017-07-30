@@ -7,7 +7,18 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <h1>前端路由</h1>
+  <pre id="route-tree"></pre>
+  <div id="app">
+    <a href="javascript:;" data-router-path="/" title="/">根路由</a>
+    <a href="javascript:;" data-router-path="/dashboard" title="/dashboard">基础导航</a>
+    <a href="javascript:;" data-router-path="/user/1" title="/user/1">动态路由</a>
+    <a href="javascript:;" data-router-path="/user/1/posts/1001" title="/user/1/posts/1001">动态多参数路由</a>
+    <a href="javascript:;" data-router-path="/admin/2" title="/admin/2">嵌套路由-根</a>
+    <a href="javascript:;" data-router-path="/admin/2/profile" title="/admin/2/profile">嵌套路由-子1</a>
+    <a href="javascript:;" data-router-path="/admin/2/posts" title="/admin/2/posts">嵌套路由-子2</a>
+    <a href="javascript:;" data-router-path="/a" title="/a">重定向</a>
+  </div>
 </body>
 <script src="./dist/app.js"></script>
 </html>

@@ -5,6 +5,9 @@ declare var __dirname;
 const config: webpack.Configuration = {
   entry: './index.ts',
   devtool: 'source-map',
+  resolve: {
+    extensions: [".ts", ".js"],
+  },
   module: {
     rules: [
       {
